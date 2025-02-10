@@ -56,10 +56,10 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               {[
-                { Icon: Facebook, color: 'hover:text-blue-500', link: 'CHANGE_ME' },
-                { Icon: Twitter, color: 'hover:text-blue-400', link: 'CHANGE_ME' },
-                { Icon: Instagram, color: 'hover:text-pink-500', link: 'CHANGE_ME' },
-                { Icon: Linkedin, color: 'hover:text-blue-600', link: 'CHANGE_ME' }
+                { Icon: Facebook, color: 'hover:text-blue-500', link: 'https://www.facebook.com/share/15tHDR2a7Y/' },
+                { Icon: Twitter, color: 'hover:text-blue-400', link: 'https://www.linkedin.com/company/syntarix/' },
+                { Icon: Instagram, color: 'hover:text-pink-500', link: 'https://www.instagram.com/syntarix/#' },
+                { Icon: Linkedin, color: 'hover:text-blue-600', link: 'https://www.linkedin.com/company/syntarix/' }
               ].map(({ Icon, color,link }) => (
                 <a
                   key={color}
