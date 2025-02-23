@@ -13,8 +13,33 @@ const caseStudies = [
     client: 'Financial Services',
     result: '40% reduction in operational costs',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'AI-Powered Analytics',
+    client: 'E-commerce Platform',
+    result: '30% improvement in customer retention',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'Cybersecurity Enhancement',
+    client: 'Healthcare Organization',
+    result: '80% reduction in security breaches',
+    image: 'https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'Automation & Workflow Optimization',
+    client: 'Manufacturing Industry',
+    result: '50% increase in process efficiency',
+    image: 'https://images.unsplash.com/photo-1581091870621-1c89a6f99044?auto=format&fit=crop&q=80&w=800'
+  },
+  {
+    title: 'Custom Software Development',
+    client: 'Logistics & Supply Chain',
+    result: '25% improvement in delivery speed',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800'
   }
 ];
+
 
 const CaseStudies = () => {
   return (
