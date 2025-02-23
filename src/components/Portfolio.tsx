@@ -1,6 +1,5 @@
 import React from 'react';
 import { Code, Globe, Shield } from 'lucide-react';
-
 const projects = [
   {
     title: 'E-Commerce Platform',
@@ -19,8 +18,33 @@ const projects = [
     description: 'Machine learning solutions for business automation',
     image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800',
     icon: Code
+  },
+  {
+    title: 'Healthcare Management System',
+    description: 'Comprehensive patient record management with cloud integration',
+    image: 'https://images.unsplash.com/photo-1576091160501-b4a1f622b8e5?auto=format&fit=crop&q=80&w=800',
+    icon: Heart
+  },
+  {
+    title: 'SaaS Dashboard',
+    description: 'Interactive analytics dashboard for business intelligence',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
+    icon: BarChart
+  },
+  {
+    title: 'Logistics & Supply Chain Platform',
+    description: 'End-to-end tracking system for seamless supply chain management',
+    image: 'https://images.unsplash.com/photo-1618170822684-75ee38033839?auto=format&fit=crop&q=80&w=800',
+    icon: Truck
+  },
+  {
+    title: 'EdTech Learning Platform',
+    description: 'AI-powered online learning management system for education',
+    image: 'https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&q=80&w=800',
+    icon: BookOpen
   }
 ];
+
 
 const Portfolio = () => {
   return (
