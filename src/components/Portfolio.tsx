@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Globe, Shield } from 'lucide-react';
+import { Globe, Shield, Code, Heart, BarChart, Truck, BookOpen } from 'lucide-react';
 const projects = [
   {
     title: 'E-Commerce Platform',
